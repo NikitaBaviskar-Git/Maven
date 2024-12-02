@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-30T18:10:13 IST" name="Default suite" finished-at="2024-11-30T18:10:34 IST" duration-ms="21690">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber2.testrunner@2f54a33d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-11-30T18:10:13 IST" name="Default test" finished-at="2024-11-30T18:10:34 IST" duration-ms="21690">
+      <class name="Cucumber2.testrunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Cucumber2.testrunner@2f54a33d]" started-at="2024-11-30T18:10:13 IST" name="setUpClass" finished-at="2024-11-30T18:10:14 IST" duration-ms="899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@55a88417]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber2.testrunner@2f54a33d]" started-at="2024-11-30T18:10:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-30T18:10:22 IST" duration-ms="8912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Able to Log in or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Insta log"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber2.testrunner@2f54a33d]" started-at="2024-11-30T18:10:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-30T18:10:29 IST" duration-ms="6463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Able to Log in or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Insta log"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber2.testrunner@2f54a33d]" started-at="2024-11-30T18:10:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-30T18:10:34 IST" duration-ms="5280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Able to Log in or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Insta log"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Cucumber2.testrunner@2f54a33d]" started-at="2024-11-30T18:10:34 IST" name="tearDownClass" finished-at="2024-11-30T18:10:34 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Cucumber2.testrunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
